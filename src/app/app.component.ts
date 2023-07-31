@@ -117,7 +117,7 @@ export class AppComponent {
   }
 
   playSound(){
-    const audio = new Audio('../assets/sounds/alarm-sound-effect.mp3')
+    const audio = new Audio('/assets/sounds/alarm-sound-effect.mp3')
     audio.play();
   }
 
